@@ -1,4 +1,4 @@
-set(TOOLCHAIN_DIR ${CMAKE_SOURCE_DIR}/vendor/win32/toolchain-i686)
+set(TOOLCHAIN_DIR ${CMAKE_SOURCE_DIR}/vendor/Libellum/Win32/toolchain-i686)
 set(OPENSSL_ROOT_DIR ${TOOLCHAIN_DIR})
 
 link_directories( ${TOOLCHAIN_DIR}/lib )
